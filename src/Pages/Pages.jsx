@@ -79,7 +79,7 @@ const fetchData=async()=>{
             <div className="flex justify-center gap-16 mt-[100px] ">
               <div className="w-[270px] h-[379px] shadow-lg hover:bg-[#2F1AC4] hover:text-white hover:font-bold group">
                 <div className="h-[279px]  bg-[#F6F7FB] flex justify-center items-center">
-                  <img className=" p-5" src={`${BaseUrl}${el.image}`} alt="" />
+                  <img className=" p-5" src={`https://e-commerece-backend-1-pkya.onrender.com/uploads/${el.image}`} alt="" />
                 </div>
                 <div className="text-center mt-2 ">
                   <p className="text-[#FB2E86] group-hover:text-white">

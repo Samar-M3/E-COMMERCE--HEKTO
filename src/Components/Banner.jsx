@@ -67,7 +67,7 @@ console.log("this is banner data",bannerdata)
 
                     <img
                       className=" z-55 relative right-2"
-                      src={`${BaseUrl}${el.image}`}
+                      src={`https://e-commerece-backend-1-pkya.onrender.com/uploads/${el.image}`}
                       alt=""
                     />
                     </div>

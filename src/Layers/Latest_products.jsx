@@ -61,7 +61,7 @@ function Latest_products() {
                 onMouseLeave={() => setHoveredIndex(null)}
               >
                 <div className="bg-[#F7F7F7] h-[269.96px] flex justify-center hover:bg-white hover:">
-                  <img className="h-[267.9px] " src={`${BaseUrl}${el.image}`} alt="" />
+                  <img className="h-[267.9px] " src={`https://e-commerece-backend-1-pkya.onrender.com/uploads/${el.image}`} alt="" />
                 </div> 
                 <div className="flex gap-23 mt-2">
                   <p>{el.title}</p>

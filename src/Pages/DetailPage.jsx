@@ -42,7 +42,7 @@ function DetailPage() {
             <div className="bg-[#fffcfc] p-3">
               <img
                 className="h-[447px] w-[500px] p-3 "
-                src={`${BaseUrl}${productDetails.image}`}
+                src={`https://e-commerece-backend-1-pkya.onrender.com/uploads/${productDetails.image}`}
                 alt=""
               />
             </div>

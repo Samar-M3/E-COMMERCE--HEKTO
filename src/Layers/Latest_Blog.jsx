@@ -32,7 +32,7 @@ function Latest_Blog() {
         return (
               <div className="h-[453px] w-[370px] group hover:transform hover:scale-101 transition-all shadow-lg rounded-2xl">
                 <div className="overflow-hidden">
-                  <img className="group-hover:scale-110 object-cover transition-all" src={`${BaseUrl}${el.image}`} alt="image" />
+                  <img className="group-hover:scale-110 object-cover transition-all" src={`https://e-commerece-backend-1-pkya.onrender.com/uploads/${el.image}`} alt="image" />
                 </div>
                 <div className="flex gap-7 my-3 mx-3 ">
                   <span>{el.brand}</span>
