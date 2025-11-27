@@ -12,7 +12,7 @@ function Banner() {
   const [error,setError]=useState(null)
 const fetchData=async()=>{
    try{
-      const res=await fetch("https://e-commerece-backend-1-pkya.onrender.com/api/v1/banner")
+      const res=await fetch("https://e-commerece-backend-1-ra4x.onrender.com/api/v1/banner")
       if(res.ok){
             const data = await res.json();
             console.log(data)
@@ -67,7 +67,7 @@ console.log("this is banner data",bannerdata)
 
                     <img
                       className=" z-55 relative right-2"
-                      src={`https://e-commerece-backend-1-pkya.onrender.com/uploads/${el.image}`}
+                      src={`https://e-commerece-backend-1-ra4x.onrender.com/uploads/${el.image}`}
                       alt=""
                     />
                     </div>

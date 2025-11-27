@@ -6,7 +6,7 @@ function Latest_Blog() {
   const [error, seterror] = useState(null);
   const fetchData = async () => {
     try {
-      const res = await fetch("https://e-commerece-backend-1-pkya.onrender.com/api/v1/blog");
+      const res = await fetch("https://e-commerece-backend-1-ra4x.onrender.com/api/v1/blog");
       if (res.ok) {
         const data = await res.json();
         setblogdata(data.data);
@@ -32,7 +32,7 @@ function Latest_Blog() {
         return (
               <div className="h-[453px] w-[370px] group hover:transform hover:scale-101 transition-all shadow-lg rounded-2xl">
                 <div className="overflow-hidden">
-                  <img className="group-hover:scale-110 object-cover transition-all" src={`https://e-commerece-backend-1-pkya.onrender.com/uploads/${el.image}`} alt="image" />
+                  <img className="group-hover:scale-110 object-cover transition-all" src={`https://e-commerece-backend-1-ra4x.onrender.com/uploads/${el.image}`} alt="image" />
                 </div>
                 <div className="flex gap-7 my-3 mx-3 ">
                   <span>{el.brand}</span>

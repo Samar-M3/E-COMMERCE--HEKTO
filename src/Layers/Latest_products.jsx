@@ -17,7 +17,7 @@ function Latest_products() {
   const [activeLatest, setActiveLatest]=useState("new")
   const fetchData=async()=>{
     try{
-      const res=await fetch("https://e-commerece-backend-1-pkya.onrender.com/api/v1/product/latest")
+      const res=await fetch("https://e-commerece-backend-1-ra4x.onrender.com/api/v1/product/latest")
       if(res.ok){
         const data=await res.json()
         setProducData(data.data)
@@ -61,7 +61,7 @@ function Latest_products() {
                 onMouseLeave={() => setHoveredIndex(null)}
               >
                 <div className="bg-[#F7F7F7] h-[269.96px] flex justify-center hover:bg-white hover:">
-                  <img className="h-[267.9px] " src={`https://e-commerece-backend-1-pkya.onrender.com/uploads/${el.image}`} alt="" />
+                  <img className="h-[267.9px] " src={`https://e-commerece-backend-1-ra4x.onrender.com/uploads/${el.image}`} alt="" />
                 </div> 
                 <div className="flex gap-23 mt-2">
                   <p>{el.title}</p>

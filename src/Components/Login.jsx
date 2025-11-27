@@ -15,7 +15,7 @@ function Login() {
     const payload = { email, password };
 
     try {
-      const res = await fetch(`${BaseUrl}api/v1/users/login`, {
+      const res = await fetch(`https://e-commerece-backend-1-ra4x.onrender.com/api/v1/users/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

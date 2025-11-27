@@ -14,7 +14,7 @@ function DetailPage() {
 
   const fetchData = async () => {
     try {
-      const res = await fetch(`https://e-commerece-backend-1-pkya.onrender.com/api/v1/product/${id}`);
+      const res = await fetch(`https://e-commerece-backend-1-ra4x.onrender.com/api/v1/product/${id}`);
       if (res.ok) {
         const data = await res.json();
         setProductDetails(data);
@@ -42,7 +42,7 @@ function DetailPage() {
             <div className="bg-[#fffcfc] p-3">
               <img
                 className="h-[447px] w-[500px] p-3 "
-                src={`https://e-commerece-backend-1-pkya.onrender.com/uploads/${productDetails.image}`}
+                src={`https://e-commerece-backend-1-ra4x.onrender.com/uploads/${productDetails.image}`}
                 alt=""
               />
             </div>
