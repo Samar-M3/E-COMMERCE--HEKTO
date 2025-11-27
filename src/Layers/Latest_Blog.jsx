@@ -6,7 +6,7 @@ function Latest_Blog() {
   const [error, seterror] = useState(null);
   const fetchData = async () => {
     try {
-      const res = await fetch("http://localhost:8000/api/v1/blog");
+      const res = await fetch("https://e-commerece-backend-1-pkya.onrender.com/api/v1/blog");
       if (res.ok) {
         const data = await res.json();
         setblogdata(data.data);

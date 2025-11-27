@@ -1,6 +1,7 @@
 import React from "react";
 import MidBannerImage from "../images/midbannerImg.png";
 
+
 function MidBanner() {
   return (
     <div>

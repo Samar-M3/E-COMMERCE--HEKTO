@@ -46,7 +46,7 @@ function New_Products() {
   const navigate=useNavigate()
   const fetchData = async () => {
     try {
-      const res = await fetch("https://e-commerece-backend-h28x.onrender.com/api/v1/product");
+      const res = await fetch("https://e-commerece-backend-1-pkya.onrender.com/api/v1/product");
       if (res.ok) {
         const data = await res.json();
         console.log(data);
