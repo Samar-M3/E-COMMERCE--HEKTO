@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
-import { useNavigate, useSearchParams } from 'react-router'
+import React from 'react'
 
-function Cart() {
-  const [cartdata,setcartdata]=useState([])
-    const [error,setError]=useState(null) 
+function Cartt() {
+    const [cartdata,setcartdata]=useState([])
+ const [error,setError]=useState(null) 
 //  const fetchData=async()=>{
 //   try{
 //   const res=await fetch(`http://localhost:8000/api/v1/mycart ${id}`)
@@ -21,6 +20,7 @@ function Cart() {
 //    useEffect(()=>{
 //      fetchData()
 //    },[])
+  
 
   return (
     <div>
@@ -81,4 +81,7 @@ function Cart() {
   )
 }
 
-export default Cart
+  
+
+
+export default Cartt

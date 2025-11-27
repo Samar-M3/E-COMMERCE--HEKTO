@@ -12,7 +12,9 @@ import Footer from './Components/Footer'
 import DetailPage from './Pages/DetailPage'
 import ProtectedLayout from './Pages/ProtectedLayout'
 import Dashboard from './Pages/Dashboard'
-import Cart from './Layers/cart'
+import Cart from './Layers/Cartt'
+import Cartt from './Layers/Cartt'
+
 
 function App() {
   return (
@@ -28,7 +30,7 @@ function App() {
       <Route path='/contact' element={<Contact/>}/> 
       <Route path='/login' element={<Login/>}/>
       <Route path='/*' element={<div>page not found</div>}/>
-      <Route path='/mycart' element={<Cart/>}/>
+      <Route path='/mycart' element={<Cartt/>}/>
       <Route path='/dashboard' element={<ProtectedLayout/>}
       >
         <Route  index element={<Dashboard/>}/>
