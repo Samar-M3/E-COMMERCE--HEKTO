@@ -12,7 +12,7 @@ function Banner() {
   const [error,setError]=useState(null)
 const fetchData=async()=>{
    try{
-      const res=await fetch("http://localhost:8000/api/v1/banner")
+      const res=await fetch("https://e-commerece-backend-h28x.onrender.com/api/v1/banner")
       if(res.ok){
             const data = await res.json();
             console.log(data)
